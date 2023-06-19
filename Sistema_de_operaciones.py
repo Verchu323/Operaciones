@@ -19,7 +19,7 @@ Division = 4
     if operacion == 2:
         num_uno = int(input("Haz seleccionado la resta. Dame el primer valor: "))
         num_dos = int(input("Haz seleccionado la resta. Dame el segundo valor: "))
-        print(f"Este es el resultado de restar los siguientes valores: {num_uno} + {num_dos} = {num_uno - num_dos}")
+        print(f"Este es el resultado de restar los siguientes valores: {num_uno} - {num_dos} = {num_uno - num_dos}")
         text = input("Si quieres realizar una nueva operacion, escibe 'Si'. En caso contrario escribe 'No': ")
         if text == "Si":
             continue
@@ -28,7 +28,7 @@ Division = 4
     if operacion == 3:
         num_uno = int(input("Haz seleccionado la multiplicacion. Dame el primer valor: "))
         num_dos = int(input("Haz seleccionado la multiplicacion. Dame el segundo valor: "))
-        print(f"Este es el resultado de multiplicar los siguientes valores: {num_uno} + {num_dos} = {num_uno * num_dos}")
+        print(f"Este es el resultado de multiplicar los siguientes valores: {num_uno} * {num_dos} = {num_uno * num_dos}")
         text = input("Si quieres realizar una nueva operacion, escibe 'Si'. En caso contrario escribe 'No': ")
         if text == "Si":
             continue
@@ -37,7 +37,7 @@ Division = 4
     if operacion == 4:
         num_uno = int(input("Haz seleccionado la division. Dame el primer valor: "))
         num_dos = int(input("Haz seleccionado la division. Dame el segundo valor: "))
-        print(f"Este es el resultado de dividir los siguientes valores {num_uno} + {num_dos} = {num_uno / num_dos}")
+        print(f"Este es el resultado de dividir los siguientes valores {num_uno} / {num_dos} = {num_uno / num_dos}")
         text = input("Si quieres realizar una nueva operacion, escibe 'Si'. En caso contrario escribe 'No': ")
         if text == "Si":
             continue
