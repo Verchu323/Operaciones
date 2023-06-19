@@ -2,11 +2,11 @@ num_uno = 0
 num_dos = 0
 while True:
     operacion = int(input("""Elige el numero de las siguientes operaciones
-Suma = 1
-Resta = 2
-Multiplicacion = 3
-Division = 4
-: """))
+    Suma = 1
+    Resta = 2
+    Multiplicacion = 3
+    Division = 4
+    : """))
     if operacion == 1:
         num_uno = int(input("Haz seleccionado la suma. Dame el primer valor: "))
         num_dos = int(input("Haz seleccionado la suma. Dame el segundo valor: "))
